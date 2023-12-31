@@ -1,0 +1,7 @@
+# cook your code here
+for i in range (int(input())):
+    n,m = map(int, raw_input().split())
+    if m>=n :
+        print("0")
+    else :
+        print(n-m)
