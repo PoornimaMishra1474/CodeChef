@@ -1,0 +1,11 @@
+t = int(input())
+for i in range(t):
+    (x,y) = map(int,input().split( ))
+    co = 2*x
+    ca=5*y
+    if (co==ca):
+        print("either")
+    elif(co>ca):
+        print("chocolate")
+    else:
+        print("candy")
