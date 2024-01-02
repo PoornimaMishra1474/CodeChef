@@ -1,0 +1,5 @@
+# cook your dish here
+courses = int(input())
+for c in range(courses):
+  X,Y,Z=map(int,input().split())
+  print((4*X)+(2*Y))
