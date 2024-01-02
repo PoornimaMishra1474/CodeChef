@@ -1,0 +1,6 @@
+# cook your dish here
+tst=int(input())
+for i in range(tst):
+    cf,cfi=[int(amt) for amt in input().split()]
+    print(cfi-cf)
+    
