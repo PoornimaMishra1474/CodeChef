@@ -1,0 +1,6 @@
+t = int(input())
+for i in range (t):
+    n = int(input())
+    hours=n*60
+    total = int(hours/20)
+    print (total)
