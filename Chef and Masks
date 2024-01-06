@@ -1,0 +1,9 @@
+for i in range (int(input())):
+    (x,y)=map(int,input().split( ))
+    if(100*x > y*10):
+        print("Cloth")
+    elif(100*x == y*10):
+        print("Cloth")
+    else:
+        print("Disposable")
+    
